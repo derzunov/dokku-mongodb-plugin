@@ -16,9 +16,14 @@ Dokku version v0.3.16 or greater.
 
 Installation
 ------------
+ for dokku 0.3.x:
 ```
 git clone https://github.com/jeffutter/dokku-mongodb-plugin.git /var/lib/dokku/plugins/mongodb
 dokku plugins-install
+```
+ for dokku 0.4.x:
+```
+dokku plugin:install https://github.com/jeffutter/dokku-mongodb-plugin.git
 ```
 
 
